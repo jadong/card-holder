@@ -1,0 +1,33 @@
+<view class='container'>
+  <view class='my-header' hover-class="item-hover" bindtap='createCard'>
+      <image class='img_header'></image>
+      <text style='width:62%;'>点击创建电子名片</text>
+      <image class='right_arrow' src='../../images/right_arrow.png'></image>
+  </view>
+
+  <view class="my-item-list">
+      <view class='my-item' hover-class="item-hover">
+        <text>AAAAAA</text>
+        <image class='right_arrow' src='../../images/right_arrow.png'></image>
+      </view>
+      <view class='view-line'></view>
+
+      <view class='my-item' hover-class="item-hover">
+        <text>BBBBBB</text>
+        <image class='right_arrow' src='../../images/right_arrow.png'></image>
+      </view>
+      <view class='view-line'></view>
+
+      <view class='my-item' hover-class="item-hover">
+        <text>CCCCCC</text>
+        <image class='right_arrow' src='../../images/right_arrow.png'></image>
+      </view>
+      <view class='view-line'></view>
+
+      <view class='my-item' hover-class="item-hover">
+        <text>DDDDDD</text>
+        <image class='right_arrow' src='../../images/right_arrow.png'></image>
+      </view>
+      
+  </view>
+</view>

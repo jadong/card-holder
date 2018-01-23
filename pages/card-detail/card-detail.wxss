@@ -1,0 +1,87 @@
+.container {
+  height: auto;
+  min-height: 100%;
+  background: rgb(243, 243, 243);
+  padding-top: 40rpx;
+}
+
+.main-view {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  height: auto;
+  min-height: 100%;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  min-height: 480rpx;
+  height: auto;
+  background: white;
+  border-radius: 15rpx;
+  padding-bottom: 50rpx;
+  width: 100%;
+}
+
+.detail-header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40rpx;
+}
+
+.detail-avatar {
+  width: 155rpx;
+  height: 155rpx;
+  background: rgb(243, 243, 243);
+  border-radius: 20rpx;
+  margin-left: 40rpx;
+}
+
+.detail-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+  align-items: center;
+}
+
+.detail-item image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.detail-item text {
+  margin-left: 30rpx;
+  font-size: 16px;
+}
+
+.detail-bottom {
+  display: flex;
+  height: 120rpx;
+  width: 100%;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0rpx;
+  align-items: center;
+  background: white;
+}
+
+.detail-bottom .button1 {
+  font-size: 14px;
+  width: 40%;
+  margin: 0rpx;
+  margin-left: 7.5%;
+  margin-right: 5%;
+}
+
+.detail-bottom .button2 {
+  font-size: 14px;
+  width: 40%;
+  margin: 0rpx;
+}

@@ -1,0 +1,41 @@
+<!--我的名片-->
+<view class="container">
+
+  <block wx:if="{{hasData}}">
+
+    <block wx:for="{{cardInfoList}}" wx:for-item="cardInfo" wx:key="id">
+      <view class='my-info' hover-class='item-hover' bindtap="jumpDetail" data-id="{{cardInfo.id}}">
+        <view class='my-header'>
+          <image class="my-avatar" src="" src="{{cardInfo.avatarUrl}}"></image>
+          <view class='my-name'>
+            <text style='font-size:22px;'>{{cardInfo.name}}</text>
+            <text style='font-size:14px;color:#666666;margin-top:5rpx;'>{{cardInfo.job}}</text>
+            <text style='font-size:14px;color:#666666;margin-top:5rpx;'>{{cardInfo.company}}</text>
+          </view>
+        </view>
+
+        <view class='my-item' style='margin-top:40rpx;'>
+          <image src='../../images/phone.png'></image>
+          <text style='color: #3d8ee0;'>{{cardInfo.phone}}</text>
+        </view>
+
+        <view class='my-item'>
+          <image src='../../images/email.png'></image>
+          <text style='color: #666666;'>{{cardInfo.email}}</text>
+        </view>
+
+        <view class='my-item'>
+          <image src='../../images/location.png'></image>
+          <text style='color: #666666;'>{{cardInfo.city}} {{cardInfo.address}}</text>
+        </view>
+
+      </view>
+    </block>
+
+
+  </block>
+
+  <view class='float_button' hover-class='btn-hover' bindtap='createCard'>
+    <image src='../../images/create.png'></image>
+  </view>
+</view>

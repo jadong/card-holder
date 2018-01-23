@@ -1,0 +1,64 @@
+<!--创建名片-->
+<view class="container">
+  <form bindsubmit="saveCardInfo" style='width:100%;'>
+    <view class="cardinfo-header">
+      <block wx:if="{{hasUserInfo}}">
+        <image class="cardinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+      </block>
+      <block wx:else>
+        <button class="cardinfo-avatar" src="" background-size="cover" open-type="getUserInfo" bindgetuserinfo="getUserInfo"></button>
+      </block>
+      <view class="cardinfo-name">
+        <input placeholder="请输入名称" name="name" />
+        <view class='line' style='width:100%;margin-left:0rpx;'></view>
+        <input class="cardinfo-phone" placeholder="请输入手机号" name="phone" />
+      </view>
+    </view>
+    <view class='cardinfo-other'>
+      <view class='card-item'>
+        <text>公司</text>
+        <input placeholder="请输入公司名称" name="company" />
+      </view>
+      <view class='line' style='width:91%;'></view>
+
+      <view class='card-item'>
+        <text>职务</text>
+        <input placeholder="请输入职务" name="job"/>
+      </view>
+      <view class='line' style='width:91%;'></view>
+
+      <view class='card-item'>
+        <text>邮箱</text>
+        <input placeholder="12345@qq.com" name="email"/>
+      </view>
+      <view class='line' style='width:91%;'></view>
+
+      <view class='card-item'>
+        <text>行业</text>
+        <input placeholder="请输入行业" name="industry"/>
+      </view>
+      <view class='line' style='width:91%;'></view>
+
+      <view class='card-item'>
+        <text>所在城市</text>
+        <input placeholder="请输入所在城市" name="city"/>
+      </view>
+      <view class='line' style='width:91%;'></view>
+
+      <view class='card-item'>
+        <text>详细地址</text>
+        <input placeholder="请输入详细地址" name="address"/>
+      </view>
+      <view class='line' style='width:91%;'></view>
+
+      <view class='card-item' style='align-items:initial;'>
+        <text>更多</text>
+        <textarea style='height:100rpx;width:100%;' placeholder="其它信息..." name="more"/>
+      </view>
+    </view>
+
+    <view style='width:100%;margin-top:50rpx;'>
+      <button style='width:80%;' type="primary" formType="submit">保存</button>
+    </view>
+  </form>
+</view>

@@ -1,0 +1,31 @@
+<!--名片库-->
+<view class="container">
+  
+  <view class='list-info'>
+      <view class='list-header'>
+        <image class="list-avatar" src="" src="{{userInfo.avatarUrl}}"></image>
+        <view class='list-name'>
+          <text style='font-size:22px;'>曾文东</text>
+          <text style='font-size:14px;color:#666666;margin-top:5rpx;'>Android开发</text>
+          <text style='font-size:14px;color:#666666;margin-top:5rpx;'>聚美优品</text>
+        </view>
+      </view>
+
+      <view class='list-item' style='margin-top:40rpx;'>
+        <image src='../../images/phone.png'></image>
+        <text style='color: #3d8ee0;'>18888888888</text>
+      </view>
+
+      <view class='list-item'>
+        <image src='../../images/email.png'></image>
+        <text style='color: #666666;'>123456@163.com</text>
+      </view>
+
+      <view class='list-item'>
+        <image src='../../images/location.png'></image>
+        <text style='color: #666666;'>北京市东城区</text>
+      </view>
+
+    </view>
+
+</view>

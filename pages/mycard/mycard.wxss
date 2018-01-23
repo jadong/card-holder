@@ -1,0 +1,83 @@
+.container {
+  height: auto;
+  min-height: 100%;
+  padding-top: 40rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-bottom: 50rpx;
+  background: rgb(243, 243, 243);
+}
+
+.my-info {
+  display: flex;
+  flex-direction: column;
+  height: 450rpx;
+  background: white;
+  border-radius: 15rpx;
+  margin-bottom: 30rpx;
+  width: 100%;
+}
+
+.my-header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40rpx;
+}
+
+.my-avatar {
+  width: 155rpx;
+  height: 155rpx;
+  background: rgb(243, 243, 243);
+  border-radius: 20rpx;
+  margin-left: 40rpx;
+}
+
+.my-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+}
+
+.my-item {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+  align-items: center;
+}
+
+.my-item image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.my-item text {
+  margin-left: 30rpx;
+  font-size: 16px;
+}
+
+.float_button {
+  width: 100rpx;
+  height: 100rpx;
+  background: #1afa29;
+  border-radius: 50rpx;
+  position: fixed;
+  bottom: 100rpx;
+  right: 80rpx;
+  opacity: 0.8;
+}
+
+.float_button image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 23rpx;
+  margin-left: 23rpx;
+}
+
+.btn-hover {
+  background: #b6b613;
+}
+
+.item-hover {
+  background: #efefef;
+}

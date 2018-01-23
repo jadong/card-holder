@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/mycard/mycard",
+    "pages/create/create",
+    "pages/my/my",
+    "pages/list/list",
+    "pages/discover/discover",
+    "pages/receive-card/receive-card",
+    "pages/card-detail/card-detail",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "名片",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#1afa29",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/my_mail_select.png",
+        "iconPath": "images/my_mail_default.png",
+        "pagePath": "pages/mycard/mycard",
+        "text": "我的名片"
+      },
+      {
+        "selectedIconPath": "images/discover_select.png",
+        "iconPath": "images/discover_default.png",
+        "pagePath": "pages/discover/discover",
+        "text": "发现"
+      },
+      {
+        "selectedIconPath": "images/list_select.png",
+        "iconPath": "images/list_default.png",
+        "pagePath": "pages/list/list",
+        "text": "名片夹"
+      }
+    ]
+  }
+}

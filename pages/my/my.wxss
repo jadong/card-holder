@@ -1,0 +1,67 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-top: 20rpx;
+  background: rgb(243, 243, 243);
+}
+
+.my-header {
+  height: 200rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  align-items: center;
+}
+
+.item-hover {
+  background: #efefef;
+}
+
+.my-header .img_header {
+  width: 150rpx;
+  height: 150rpx;
+  background: #eee;
+  border-radius: 15rpx;
+  margin-left: 30rpx;
+}
+
+.my-header text {
+  margin-left: 30rpx;
+  color: #666;
+}
+
+.my-item-list {
+  height: auto;
+  width: 100%;
+  margin-top: 20rpx;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-item {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30rpx;
+  height: 100rpx;
+  align-items: center;
+}
+
+.my-item text{
+  width: 89%;
+}
+
+.view-line {
+  width: 93%;
+  height: 0.5rpx;
+  background: #efefef;
+  margin:0 auto;
+}
+
+.right_arrow {
+  width: 40rpx;
+  height: 40rpx;
+}

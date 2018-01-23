@@ -1,0 +1,8 @@
+/* pages/discover/discover.wxss */
+.container {
+  height: 100%;
+  padding-top: 40rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  background: rgb(243, 243, 243);
+}
